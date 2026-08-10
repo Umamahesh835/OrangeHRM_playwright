@@ -1,0 +1,14 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="19.471719999999998">
+<testsuite name="LoginTest.spec.ts" timestamp="2026-08-10T14:31:55.762Z" hostname="chromium" tests="1" failures="0" skipped="0" time="11.382" errors="0">
+<testcase name="Logintest" classname="LoginTest.spec.ts" time="11.382">
+</testcase>
+</testsuite>
+<testsuite name="LoginTest.spec.ts" timestamp="2026-08-10T14:31:55.762Z" hostname="firefox" tests="1" failures="0" skipped="0" time="13.913" errors="0">
+<testcase name="Logintest" classname="LoginTest.spec.ts" time="13.913">
+</testcase>
+</testsuite>
+<testsuite name="LoginTest.spec.ts" timestamp="2026-08-10T14:31:55.762Z" hostname="webkit" tests="1" failures="0" skipped="0" time="10.159" errors="0">
+<testcase name="Logintest" classname="LoginTest.spec.ts" time="10.159">
+</testcase>
+</testsuite>
+</testsuites>
