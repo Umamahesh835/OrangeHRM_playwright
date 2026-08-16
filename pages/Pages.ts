@@ -6,11 +6,11 @@ import { ContextMenu } from './ContextMenu';
 export class Pages {
   readonly loginPage: Loginpage;
   readonly contextMenu: ContextMenu;
+  
  // readonly homePage: HomePage;
 
   constructor(page: Page) {
     this.loginPage = new Loginpage(page);
     this.contextMenu = new ContextMenu(page);
-    //this.homePage = new HomePage(page);
   }
 }
