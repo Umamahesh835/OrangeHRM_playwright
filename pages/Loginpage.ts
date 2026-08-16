@@ -8,7 +8,7 @@ export class Loginpage{
     readonly DropdownMenu: Locator;
     readonly LogOutButton: Locator;
 
-    constructor(page:Page){
+    constructor( page:Page){
 
         this.page=page;
         this.Username=page.locator("//input[@name='username']");

@@ -1,14 +1,20 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="19.471719999999998">
-<testsuite name="LoginTest.spec.ts" timestamp="2026-08-10T14:31:55.762Z" hostname="chromium" tests="1" failures="0" skipped="0" time="11.382" errors="0">
-<testcase name="Logintest" classname="LoginTest.spec.ts" time="11.382">
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="31.673136">
+<testsuite name="LoginTest.spec.ts" timestamp="2026-08-16T07:13:19.428Z" hostname="chromium" tests="2" failures="0" skipped="0" time="22.878" errors="0">
+<testcase name="Dashboard test" classname="LoginTest.spec.ts" time="11.471">
+</testcase>
+<testcase name="Another test" classname="LoginTest.spec.ts" time="11.407">
 </testcase>
 </testsuite>
-<testsuite name="LoginTest.spec.ts" timestamp="2026-08-10T14:31:55.762Z" hostname="firefox" tests="1" failures="0" skipped="0" time="13.913" errors="0">
-<testcase name="Logintest" classname="LoginTest.spec.ts" time="13.913">
+<testsuite name="LoginTest.spec.ts" timestamp="2026-08-16T07:13:19.428Z" hostname="firefox" tests="2" failures="0" skipped="0" time="28.393" errors="0">
+<testcase name="Dashboard test" classname="LoginTest.spec.ts" time="14.959">
+</testcase>
+<testcase name="Another test" classname="LoginTest.spec.ts" time="13.434">
 </testcase>
 </testsuite>
-<testsuite name="LoginTest.spec.ts" timestamp="2026-08-10T14:31:55.762Z" hostname="webkit" tests="1" failures="0" skipped="0" time="10.159" errors="0">
-<testcase name="Logintest" classname="LoginTest.spec.ts" time="10.159">
+<testsuite name="LoginTest.spec.ts" timestamp="2026-08-16T07:13:19.428Z" hostname="webkit" tests="2" failures="0" skipped="0" time="21.873" errors="0">
+<testcase name="Dashboard test" classname="LoginTest.spec.ts" time="12.036">
+</testcase>
+<testcase name="Another test" classname="LoginTest.spec.ts" time="9.837">
 </testcase>
 </testsuite>
 </testsuites>

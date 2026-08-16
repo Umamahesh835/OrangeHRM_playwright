@@ -98,7 +98,7 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.60.0",
-    "workers": 6,
+    "workers": 3,
     "webServer": null
   },
   "suites": [
@@ -109,7 +109,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "Logintest",
+          "title": "Dashboard test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -124,12 +124,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 11382,
+                  "duration": 11471,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-10T14:31:56.637Z",
+                  "startTime": "2026-08-16T07:13:20.151Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -137,13 +137,47 @@
               "status": "expected"
             }
           ],
-          "id": "539b1c6d7fcc511d6019-83bd7cbd229896bc3fad",
+          "id": "539b1c6d7fcc511d6019-20f45fa825b98a4cb9d8",
           "file": "LoginTest.spec.ts",
-          "line": 5,
+          "line": 10,
           "column": 5
         },
         {
-          "title": "Logintest",
+          "title": "Another test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 11407,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-16T07:13:20.141Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "539b1c6d7fcc511d6019-c8bb9fd8a6e7fff8b789",
+          "file": "LoginTest.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "Dashboard test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -155,15 +189,15 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 13913,
+                  "duration": 14959,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-10T14:31:56.633Z",
+                  "startTime": "2026-08-16T07:13:20.141Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -171,13 +205,47 @@
               "status": "expected"
             }
           ],
-          "id": "539b1c6d7fcc511d6019-f22d68cfe92b9ecfcf67",
+          "id": "539b1c6d7fcc511d6019-663e08551636f1295d36",
           "file": "LoginTest.spec.ts",
-          "line": 5,
+          "line": 10,
           "column": 5
         },
         {
-          "title": "Logintest",
+          "title": "Another test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 13434,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-16T07:13:34.924Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "539b1c6d7fcc511d6019-bae544e8dfed83067817",
+          "file": "LoginTest.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "Dashboard test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -189,15 +257,15 @@
               "projectName": "webkit",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 10159,
+                  "duration": 12036,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-10T14:31:56.636Z",
+                  "startTime": "2026-08-16T07:13:34.780Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -205,9 +273,43 @@
               "status": "expected"
             }
           ],
-          "id": "539b1c6d7fcc511d6019-00d03fdf27a97feffc1b",
+          "id": "539b1c6d7fcc511d6019-a394444f01faba7b4419",
           "file": "LoginTest.spec.ts",
-          "line": 5,
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "Another test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 9837,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-16T07:13:39.732Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "539b1c6d7fcc511d6019-0be01681a2856c86c29a",
+          "file": "LoginTest.spec.ts",
+          "line": 16,
           "column": 5
         }
       ]
@@ -215,9 +317,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-10T14:31:55.728Z",
-    "duration": 19471.719999999998,
-    "expected": 3,
+    "startTime": "2026-08-16T07:13:19.397Z",
+    "duration": 31673.136,
+    "expected": 6,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
